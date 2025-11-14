@@ -1,6 +1,6 @@
 package org.example;
 
-class Solution {
+class Solution1 {
     public boolean hasDuplicate(int[] nums) {
         for(int i=0;i<nums.length;i++){
             for(int j=i+1;j<nums.length;j++){
@@ -15,7 +15,7 @@ class Solution {
     public static void main(String[] args) {
         int[] nums = {1,2,3,4};
 
-        Solution object = new Solution();
+        Solution1 object = new Solution1();
         System.out.println(object.hasDuplicate(nums));
 
     }
