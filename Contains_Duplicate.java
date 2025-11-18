@@ -15,7 +15,7 @@ class Contains_Duplicate {
     public static void main(String[] args) {
         int[] nums = {1,2,3,4};
 
-        Solution1 object = new Solution1();
+        Contains_Duplicate object = new Contains_Duplicate();
         System.out.println(object.hasDuplicate(nums));
 
     }
